@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RikkiSamone/IOD_Mod1.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "rgaddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RikkiSamone/IOD_Mod1/issues"
+  },
+  "homepage": "https://github.com/RikkiSamone/IOD_Mod1#readme"
+}
