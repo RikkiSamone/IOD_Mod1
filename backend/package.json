@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/RikkiSamone/IOD_Mod1/issues"
   },
-  "homepage": "https://github.com/RikkiSamone/IOD_Mod1#readme"
+  "homepage": "https://github.com/RikkiSamone/IOD_Mod1#readme",
+  "dependencies": {
+    "sentiment": "^5.0.2"
+  }
 }

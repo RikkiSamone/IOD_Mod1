@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 1 excercise 3</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; }
+        .container { display: flex; min-height: 100vh; align-items: stretch; }
+        .column { 
+            background: goldenrod; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            flex: 1; 
+        }
+           
+        #divsection {
+         width: 650px;
+         background-color: white;
+         height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class= "container" >
+        <div class="column" id="column1">
+            <img src= "https://www.clipartmax.com/png/middle/223-2235413_waving-hand-sign-iphone-emoji-jpg-waving-hand-emoji-png.png" width="50" height="50">
+            <h1 id="heading1">Hello</h1>
+            <button onclick="changeBackgroundColor()">Change Me</button>
+        </div>
+        <div class="column" id="column2">
+            <img src= "https://t3.ftcdn.net/jpg/01/24/61/74/360_F_124617407_RlWBUvqQfGs9nwi8TXg72Biv5RZLRK0i.jpg" width="60" height="60">
+            <h1 id="heading2">World</h1>
+            <button onclick="changeBackgroundColor()">Change Me</button>
+        </div>
+    </div>
+    <script>
+    function changeBackgroundColor(){
+        document.getElementById("#divsection").style.backgroundColor = "lightblue";
+    }
+
+        </script>
+</body>
+</html>

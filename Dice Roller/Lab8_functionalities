@@ -1,0 +1,5 @@
+Basic Flow
+User lands on page
+User selects dice type
+User selects "Roll" Button
+Selected Dice should roll to random output

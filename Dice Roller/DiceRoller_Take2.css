@@ -1,0 +1,57 @@
+.dice-container{
+    display: flex;
+}
+
+/* dice box*/
+.dice{
+    width: 80px;
+        height: 80px;
+        position: relative;
+        margin: 5px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.246);
+}
+.dice_6{
+    width: 80px;
+    height: 80px;
+    position: relative; 
+    margin: 5px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.246); 
+}
+
+.dice_8{
+    width: 0px;
+    height: 0px;
+    position: relative;
+    border-top: 0px;
+    border-bottom: 80px; 
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 10px;
+    box-shadow:rgba(0, 0, 0, 0.246);
+    margin: 5px;
+
+}
+
+.dice-dot-6{
+    --top: 0%;
+    --left: 0%;
+
+width: 15px;
+height: 15px; 
+background-color: black;
+border-radius: 50%;
+
+/*Dot Positioning*/
+position: absolute; 
+top: var(--top);
+left: var(--left);
+transform: translateX(calc(var(--left)* -1)) translateY(calc(var(--top)* -1));
+}
+.btn-roll-dice {
+    margin-top: 10px;
+}
+.dot-dice-8{
+    
+}
